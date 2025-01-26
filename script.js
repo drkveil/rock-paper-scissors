@@ -17,3 +17,6 @@ function getHumanChoice(){
     let humanValue = console.log(prompt("Rock, Paper or Scissors: "));
     return humanValue;
 }
+
+var humanScore = 0;
+var computerScore = 0;
