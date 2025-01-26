@@ -12,3 +12,8 @@ if (getComputerChoice() === 1){
 }else{
     console.log("Scissors");
 }
+
+function getHumanChoice(){
+    let humanValue = console.log(prompt("Rock, Paper or Scissors: "));
+    return humanValue;
+}
