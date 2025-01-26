@@ -17,9 +17,10 @@ function getHumanChoice(){
     return humanValue;
 }
 
+let humanScore = 0;
+let computerScore = 0;
+
 function playRound(humanChoice, computerChoice,){
-    let humanScore = 0;
-    let computerScore = 0;
     if (humanChoice === "rock" && computerChoice === "rock" ||
         humanChoice === "paper" && computerChoice === "paper" ||
         humanChoice === "scissors" && computerChoice === "scissors"
