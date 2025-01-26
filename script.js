@@ -63,4 +63,17 @@ function playRound(humanChoice, computerChoice,){
 
 }
 
-playRound(getHumanChoice(), getComputerChoice());
+let i = 1;
+
+while (i <= 5) {
+    playRound(getHumanChoice(), getComputerChoice());
+    i++
+}
+
+if (humanScore > computerScore){
+    console.log("Finally you are the overall winner!");
+}else if (humanScore < computerScore){
+    console.log("You finally lose but dont give up just hit F5 or referesh the page");
+}else{
+    console.log("The game ended up a Tie, Reload for a remarch");
+}
